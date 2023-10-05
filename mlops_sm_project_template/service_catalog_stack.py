@@ -79,7 +79,7 @@ class ServiceCatalogStack(Stack):
             "PortfolioName",
             type="String",
             description="The name of the portfolio",
-            default="SageMaker Organization Templates",
+            default="Abalone Demo",
             min_length=1,
         ).value_as_string
 
@@ -88,7 +88,7 @@ class ServiceCatalogStack(Stack):
             "PortfolioOwner",
             type="String",
             description="The owner of the portfolio",
-            default="administrator",
+            default="Temple",
             min_length=1,
             max_length=50,
         ).value_as_string
@@ -98,7 +98,7 @@ class ServiceCatalogStack(Stack):
             "ProductVersion",
             type="String",
             description="The product version to deploy",
-            default="1.0",
+            default="2.0",
             min_length=1,
         ).value_as_string
 
